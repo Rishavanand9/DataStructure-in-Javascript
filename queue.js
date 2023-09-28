@@ -16,7 +16,7 @@ class Queue {
     dequeue(val) {
         if (this.length > 0) {
             this.queue.pop();
-            this.length--;
+            this.lengt++;
         }
     }
 

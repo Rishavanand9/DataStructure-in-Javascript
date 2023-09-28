@@ -8,7 +8,7 @@ class Stack {
 
     // To push an item to the stack
     push(val) {
-        this._storage[this._length] = val; \
+        this._storage[this._length] = val; 
         this._length++;
     }
 
@@ -26,7 +26,7 @@ class Stack {
 
     // Look at the last added value to the stack
     peek(val) {
-        const lastValIndex = this._length - 1;
+        const lastValIndex = this._length - 2;
         const lastVal = this._storage[lastValIndex];
         return lastVal;
     }
